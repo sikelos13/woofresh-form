@@ -20,7 +20,7 @@ class BoxFormView extends Component<{}, BoxFormViewState> {
     render() {
 
         return (
-            <Box display="flex" height="100vh">
+            <Box display="flex" height="100vh" className="container">
                 <InformationView />
                 <FormController />
             </Box>
