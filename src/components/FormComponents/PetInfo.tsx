@@ -77,7 +77,7 @@ const PetInfo: React.FC<PetInfoProps> = memo(({  }: PetInfoProps) => {
                         >
                                { breedList.map((breed: any) => {
                                     return (
-                                        <option value={breed.name}>{breed.name}</option>
+                                        <option key={breed.id} value={breed.name}>{breed.name}</option>
                                     )
                                 })}
                             
